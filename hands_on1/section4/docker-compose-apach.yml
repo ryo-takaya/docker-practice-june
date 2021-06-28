@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+   httpd:
+     image: httpd:2.4.43
+     ports:
+       - "80:8980"
